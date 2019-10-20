@@ -4,5 +4,9 @@
 
 /.vs
 /Backup/obj/Debug
-*/obj/*
-*/bin/*
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
