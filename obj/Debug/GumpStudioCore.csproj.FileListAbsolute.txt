@@ -21,10 +21,11 @@ C:\Users\mnune\Desktop\GumpStudio Source\GumpStudioCore\obj\Debug\GumpStudioCore
 C:\Users\mnune\Desktop\GumpStudio Source\GumpStudioCore\obj\Debug\GumpStudioCore.csproj.CopyComplete
 C:\Users\mnune\Desktop\GumpStudio Source\GumpStudioCore\obj\Debug\GumpStudioCore.dll
 C:\Users\mnune\Desktop\GumpStudio Source\GumpStudioCore\obj\Debug\GumpStudioCore.pdb
+F:\Workspace\Daflan\GumpStudio\bin\Debug\README.md
+F:\Workspace\Daflan\GumpStudio\bin\Debug\GumpStudioCore.exe
 F:\Workspace\Daflan\GumpStudio\bin\Debug\GumpStudioCore.pdb
 F:\Workspace\Daflan\GumpStudio\bin\Debug\Ultima.dll
-F:\Workspace\Daflan\GumpStudio\bin\Debug\UOFont.dll
-F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudioCore.csprojAssemblyReference.cache
+F:\Workspace\Daflan\GumpStudio\bin\Debug\Ultima.pdb
 F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudio.ClilocBrowser.resources
 F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudio.DesignerForm.resources
 F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudio.FontBrowser.resources
@@ -40,7 +41,6 @@ F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudio.Settings.resources
 F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudio.StaticArtBrowser.resources
 F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudioCore.csproj.GenerateResource.cache
 F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudioCore.csproj.CopyComplete
-F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudioCore.pdb
-F:\Workspace\Daflan\GumpStudio\bin\Debug\README.md
-F:\Workspace\Daflan\GumpStudio\bin\Debug\GumpStudioCore.exe
 F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudioCore.exe
+F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudioCore.pdb
+F:\Workspace\Daflan\GumpStudio\obj\Debug\GumpStudioCore.csprojAssemblyReference.cache

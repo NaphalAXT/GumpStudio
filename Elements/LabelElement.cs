@@ -12,7 +12,6 @@ using System.Drawing.Design;
 using System.Drawing.Imaging;
 using System.Runtime.Serialization;
 using Ultima;
-using UOFont;
 
 namespace GumpStudio.Elements
 {
@@ -194,7 +193,7 @@ namespace GumpStudio.Elements
       else
       {
         this.mCropped = false;
-        Bitmap stringImage = UnicodeFonts.GetStringImage(this.mFontIndex, this.mText + " ");
+        Bitmap stringImage = UnicodeFonts.WriteText(this.mFontIndex, this.mText + " ");
         this.mSize = stringImage.Size;
         stringImage.Dispose();
       }
@@ -217,7 +216,7 @@ namespace GumpStudio.Elements
     {
       if (this.mCache != null)
         this.mCache.Dispose();
-      this.mCache = this.mUnicode ? UnicodeFonts.GetStringImage(this.mFontIndex, this.mText + " ") : Fonts.GetStringImage(this.mFontIndex, this.mText + " ");
+      this.mCache = this.mUnicode ? UnicodeFonts.WriteText(this.mFontIndex, this.mText + " ") : UnicodeFonts.WriteText(this.mFontIndex, this.mText + " ");
       if ((this.mHue == null || this.mHue.Index == 0 ? 0 : 1) != 0)
         this.mHue.ApplyTo(this.mCache, this.mPartialHue);
       if (this.mCropped)

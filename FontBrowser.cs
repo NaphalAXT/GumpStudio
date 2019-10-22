@@ -13,7 +13,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
-using UOFont;
+using Ultima;
 
 namespace GumpStudio
 {
@@ -136,7 +136,7 @@ namespace GumpStudio
         e.Graphics.FillRectangle(SystemBrushes.Window, e.Bounds);
       if (e.Index > (this.fntunicode ? 12 : 9))
         return;
-      Bitmap bitmap = this.fntunicode ? UnicodeFonts.GetStringImage(e.Index, "ABCabc123!@#$АБВабв") : Fonts.GetStringImage(e.Index, "ABCabc123 */ АБВабв");
+      Bitmap bitmap = this.fntunicode ? UnicodeFonts.WriteText(e.Index, "ABCabc123!@#$АБВабв") : UnicodeFonts.WriteText(e.Index, "ABCabc123 */ АБВабв");
       e.Graphics.DrawImage((Image) bitmap, e.Bounds.Location);
       bitmap.Dispose();
     }
@@ -149,7 +149,7 @@ namespace GumpStudio
       }
       else
       {
-        Bitmap bitmap = this.fntunicode ? UnicodeFonts.GetStringImage(e.Index, "ABCabc123!@#$АБВабв") : Fonts.GetStringImage(e.Index, "ABCabc123 */ АБВабв");
+        Bitmap bitmap = this.fntunicode ? UnicodeFonts.WriteText(e.Index, "ABCabc123!@#$АБВабв") : UnicodeFonts.WriteText(e.Index, "ABCabc123 */ АБВабв");
         e.ItemHeight = bitmap.Height;
         bitmap.Dispose();
       }

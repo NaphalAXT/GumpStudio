@@ -10,7 +10,6 @@ using System.Drawing;
 using System.Drawing.Design;
 using System.Runtime.Serialization;
 using Ultima;
-using UOFont;
 
 namespace GumpStudio.Elements
 {
@@ -126,7 +125,7 @@ namespace GumpStudio.Elements
         this.mHue = Hues.GetHue(0);
       if (this.mCache != null)
         this.mCache.Dispose();
-      this.mCache = UnicodeFonts.GetStringImage(2, this.mInitialText + " ");
+      this.mCache = UnicodeFonts.WriteText(2, this.mInitialText + " ");
       if ((this.mHue == null || this.mHue.Index == 0 ? 0 : 1) == 0)
         return;
       this.mHue.ApplyTo(this.mCache, false);

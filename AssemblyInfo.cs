@@ -12,4 +12,3 @@ using System.Security.Permissions;
 [assembly: AssemblyProduct("Gump Studio.NET")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyVersion("1.8.3024.24259")]
-[assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]

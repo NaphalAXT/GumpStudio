@@ -41,7 +41,6 @@ namespace GumpStudio
     private TrackBar _TrackBar1;
     [AccessedThroughProperty("txtClientPath")]
     private TextBox _txtClientPath;
-    private IContainer components;
 
     internal virtual Button Button1
     {
@@ -206,9 +205,8 @@ namespace GumpStudio
     {
       try
       {
-        if ((!disposing || this.components == null ? 0 : 1) == 0)
+        if (!disposing)
           return;
-        this.components.Dispose();
       }
       finally
       {
